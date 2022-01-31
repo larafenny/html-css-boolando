@@ -1,0 +1,28 @@
+*{
+    box-sizing:border-box;
+    margin: auto;
+    padding: 0px;
+}
+
+
+.product-grid{
+    background-color: red;
+    height: 500px;
+    width: 1200px;
+    
+}
+
+#product-raw{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    
+}
+
+#product-raw{
+    background-color: yellow;
+    height: 50px;
+    width: 30%;
+    float: left;
+    
+}
