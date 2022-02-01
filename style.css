@@ -12,17 +12,45 @@
     
 }
 
-#product-raw{
+.product-raw{
     background-color: blue;
-    height: 100px;
+    height: 500px;
     width: 100%;
+    text-align: center;
     
 }
 
-#product-raw{
-    background-color: yellow;
-    height: 50px;
+.product-card{
+    height: 100%;
     width: 30%;
-    float: left;
-    
+    display: inline-block;   
+    margin: auto;    
+    margin: 0px 5px;
+    position: relative;
+}
+
+.product-card img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+.heart{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    vertical-align:middle;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+.label{
+    background-color: green;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 30px;
+    }
 }
